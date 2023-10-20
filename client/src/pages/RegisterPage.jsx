@@ -15,7 +15,6 @@ const RegisterPage = () => {
         if (isAuthenticated) navigation('/tasks')
     }, [isAuthenticated])
 
-    // bg-zinc-800 max-w-md p-10 rounded-md
     return (
         <div className='flex h-[calc(100vh-100px)] items-center justify-center '>
             

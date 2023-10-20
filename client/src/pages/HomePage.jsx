@@ -1,6 +1,8 @@
 function HomePage() {
     return (
-        <div>Home</div>
+        <div className="flex justify-center">
+            <h1 className="text-blue-500 text-4xl">Aplicacion de tareas</h1>
+        </div>
     )
 }
 
